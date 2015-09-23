@@ -1,0 +1,32 @@
+{
+  "name": "connect-mockjs",
+  "version": "0.1.1",
+  "description": "Mock.js middleware for Connect/Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccbikai/connect-mockjs.git"
+  },
+  "keywords": [
+    "mockjs",
+    "express",
+    "connect"
+  ],
+  "author": "ccbikai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccbikai/connect-mockjs/issues"
+  },
+  "homepage": "https://github.com/ccbikai/connect-mockjs#readme",
+  "dependencies": {
+    "mockjs": "^0.1.10"
+  },
+  "devDependencies": {
+    "express": "^4.13.3",
+    "should": "^7.1.0",
+    "supertest": "^1.1.0"
+  }
+}
